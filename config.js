@@ -18,8 +18,8 @@ global.DATABASE_URL = process.env.DATABASE_URL || ""
 
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa,Nairobi";
 global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md";
-global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643";
-global.website=process.env.GURL || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643" ; 
+global.gurl  =process.env.GURL  || "https://chat.whatsapp.com/KdJInxet8xtDxAFlO1JcH5";
+global.website=process.env.GURL || "https://chat.whatsapp.com/KdJInxet8xtDxAFlO1JcH5" ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://github.com/SuhailTechInfo/Suhail-Md/blob/main/lib/assets/suhail.jpg?raw=true" ; // SET LOGO FOR IMAGE 
 global.caption = process.env.CAPTION || global.caption || "ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ" 
 
@@ -84,7 +84,7 @@ module.exports = {
   KOYEB_API : process.env.KOYEB_API  || "true",
 
   REMOVE_BG_KEY : process.env.REMOVE_BG_KEY  || "",
-  OPENAI_API_KEY: process.env.OPENAI_API_KEY || "",
+  OPENAI_API_KEY: process.env.OPENAI_API_KEY || "sk-drrich86-c1hvb0zvep0M1wop4pSkT3BlbkFJrq7AIBFyZGd8HVMyysMn",
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || "",
   HEROKU_APP_NAME:process.env.HEROKU_APP_NAME|| "",
   antilink_values:process.env.ANTILINK_VALUES|| "all",
